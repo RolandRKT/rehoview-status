@@ -9,6 +9,14 @@ sites:
     expectedStatusCodes:
       - 200
       - 404
+  - name: Vercel
+    url: https://www.vercel-status.com/
+    expectedStatusCodes:
+      - 200
+  - name: Supabase
+    url: https://status.supabase.com/
+    expectedStatusCodes:
+      - 200
 
 status-website:
   baseUrl: /rehoview-status
